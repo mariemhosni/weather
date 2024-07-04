@@ -1,0 +1,83 @@
+
+  .main-color{
+background-color: #323544a8;
+
+  }
+  .sec-color{
+
+    background-color: #323544;
+
+  }
+.logo{
+width: 55px;
+  height: 35px;
+}
+.main-nav .navbar{
+    background-color:#1E202B;
+    }
+    .nav-link{
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      font-family: "Poppins", sans-serif;
+      padding: 10px 20px;
+    
+    }
+
+    .nav-link.active{
+      transition: 0.5s border;
+      transition: 0.2s border-radius;
+      border: 2px solid blue;
+      border-radius: 20px;
+    }
+
+    .nav-link.n-active{
+     transition: all 0.1s;
+     border: 2px solid transparent;
+     border-radius: 20px;
+
+    }
+
+    .nav-link.n-active:hover{
+      border: 2px solid blue;
+      color: blue !important;
+    }
+
+
+
+
+   
+    .main-nav .navbar .navbar-brand{
+        font-family: "Montserrat", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: uppercase;
+    }
+    .main-nav .navbar .nav-item{
+        position: relative;
+        margin-inline: 0.6rem;
+    }
+    .navbar{
+      z-index: 1000;
+    }
+
+.btn-position{
+  position: relative;
+  right: 120px ;
+  padding: 12px 40px;
+  border-radius: 50px;
+}
+
+.input{
+  background-color: #1E202B;
+  border: 2px solid #1E202B;
+}
+.input:focus{
+  background-color: #1E202B;
+  outline: 0px solid #1E202B;
+}
+.fs-8{
+  font-size: 90px;
+}
+
